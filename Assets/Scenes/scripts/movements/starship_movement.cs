@@ -2,7 +2,11 @@ using UnityEngine;
 
 namespace Scenes.scripts.movements
 {
-    public class StarshipMovement : MonoBehaviour
+    public class Stars
+    :wq
+    
+    :wq
+        
     {
         private const float Fast = 12.0f;
         private const float Slow = 5.0f;
