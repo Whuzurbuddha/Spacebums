@@ -7,7 +7,7 @@ namespace Scenes.scripts.movements
     public class Aiming : MonoBehaviour
     {
         public Transform target; 
-        public float smoothSpeed = 300f;
+        public float Speed = 300f;
         public Vector3 offset;
 
         private void Start()
@@ -24,7 +24,7 @@ namespace Scenes.scripts.movements
             targetPosition.z = target.position.z;
 
             if (target == null) return;
-            target.position = Vector3.Lerp(target.position, targetPosition, smoothSpeed);
+            target.position = Vector3.Lerp(target.position, targetPosition, Speed);
         }
     }
 }
